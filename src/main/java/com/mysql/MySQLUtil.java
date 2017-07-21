@@ -6,16 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.mysql.MySQLProperties.*;
-
 /**
  * Created by liuya on 2017/7/20.
  */
 public class MySQLUtil {
-//    private static Connection connection;
 
     public static Connection getConnection(String driver, String url, String username, String password) {
-//        Connection connection;
         try {
             Class.forName(driver);
             Connection connection = DriverManager.getConnection(url, username, password);
@@ -31,12 +27,11 @@ public class MySQLUtil {
         return null;
     }
 
-    public static void createTable() {
+    public static void createTable(Connection connection) {
         String sql = "CREATE TABLE IF NOT EXISTS tb_base_code_serviceid(\n" +
                 "\tcode VARCHAR(16) PRIMARY KEY NOT NULL,\n" +
                 "\tserviceid VARCHAR(35) NOT NULL\n" +
                 ")";
-        Connection connection = getConnection(CMP_DRIVER, CMP_URL, CMP_USERNAME, CMP_PASSWORD);
         Statement stat = null;
         if (connection != null) {
             try {
@@ -59,57 +54,67 @@ public class MySQLUtil {
         }
     }
 
-    public static List<Map<String, Object>> queryBySql(String sql) {
-        List<Map<String, Object>> queryResult = new ArrayList<>();
-        PreparedStatement pst = null;
+    /**
+     * @param sql   sql语句
+     * @param connection    MySQL连接
+     * @return 查询结果list集合
+     */
+    public static List<Map<String, Object>> queryBySql(String sql, Connection connection) {
+        List<Map<String, Object>> list = new ArrayList<>();
+        PreparedStatement ps = null;
+        ResultSetMetaData rsmd = null;
         ResultSet rs = null;
-        Statement stat=null;
-        ResultSetMetaData md = null;
-        Connection connection = getConnection(CMP_DRIVER, CMP_URL, CMP_USERNAME, CMP_PASSWORD);
-
-        pst = connection.prepareStatement(sql);
-        rs = pst.executeQuery();
-        md = rs.getMetaData();
-        int columns = md.getColumnCount();
-        while(rs.next()){
-            Map<String, Object> map = new HashMap<String,Object>();
-            for(int i=0;i<columns;i++){
-                map.put(md.getColumnName(i+1),getValueByType(rs, md.getColumnType(i + 1), md.getColumnName(i + 1)));
+        int columns;
+        try {
+            ps = connection.prepareStatement(sql);
+            rs = ps.executeQuery();
+            rsmd = rs.getMetaData();
+            columns = rsmd.getColumnCount();
+            while (rs.next()) {
+                Map<String, Object> map = new HashMap<String, Object>();
+                for (int i = 0; i < columns; i++) {
+                    map.put(rsmd.getColumnName(i + 1), getValueByType(rs, rsmd.getColumnType(i + 1), rsmd.getColumnName(i + 1)));
+                }
+                list.add(map);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (rs != null) {
+                try {
+                    rs.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
             }
         }
-        for(int i=0;i<columns;i++){
-
-        }
-        stat = connection.createStatement();
-        stat.execute(sql)
-
-        return queryResult;
+        return list;
     }
 
-    /***
-     *
-     * @param rs 查询出来的结果集
+    /**
+     * @param rs   查询出来的结果集
      * @param type SQL type from java.sql.Types
      * @param name 数据库记录所对应的字段名称
      * @return 返回一条记录的一个列值
      * @throws SQLException
      */
-    private static Object getValueByType(ResultSet rs, int type, String name) throws SQLException{
-        switch(type){
+    private static Object getValueByType(ResultSet rs, int type, String name) throws SQLException {
+        switch (type) {
             case Types.NUMERIC:
                 return rs.getLong(name);
             case Types.VARCHAR:
-                //if(rs.getString(name)==null){
-                //return "";
-                //}
                 return rs.getString(name);
             case Types.DATE:
-                //if(rs.getDate(name)==null){
-                //return System.currentTimeMillis();
-                //  }
                 return rs.getDate(name);
             case Types.TIMESTAMP:
-                return rs.getTimestamp(name).toString().substring(0,rs.getTimestamp(name).toString().length()-2);
+                return rs.getTimestamp(name).toString().substring(0, rs.getTimestamp(name).toString().length() - 2);
             case Types.INTEGER:
                 return rs.getInt(name);
             case Types.DOUBLE:
@@ -122,5 +127,4 @@ public class MySQLUtil {
                 return rs.getObject(name);
         }
     }
-
 }
