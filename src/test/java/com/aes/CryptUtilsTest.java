@@ -1,5 +1,6 @@
 package com.aes;
 
+import com.aes.utils.CryptUtils;
 import org.junit.Test;
 
 import java.io.File;
@@ -10,7 +11,7 @@ import java.io.File;
 public class CryptUtilsTest {
     @Test
     public void encryptFile() throws Exception {
-        String fp = "E:\\Config\\work\\jdbc2\\jdbc.properties.txt";
+        String fp = "E:\\Config\\work\\jdbc3\\jdbc.properties.txt";
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Input file path: ");
 //        String inputPath=sc.next();
@@ -21,7 +22,7 @@ public class CryptUtilsTest {
         }
         String fileType = ".txt";
         String key = "97DC0D40FCFB425EA2A94C3B34ED99F9";
-        File file=CryptUtils.encryptFile(sourceFile, fileType, key);
+        File file= CryptUtils.encryptFile(sourceFile, fileType, key);
 
 //        file.createNewFile();
     }

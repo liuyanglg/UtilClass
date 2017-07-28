@@ -1,4 +1,4 @@
-package com.aes;
+package com.aes.utils;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ada740c-972e-43bd-9e90-7f1ce819b036" name="Default" comment="" />
+    <list default="true" id="2ada740c-972e-43bd-9e90-7f1ce819b036" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dmp/model/TableSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dmp/utils/DmpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dmp/utils/ImpCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dmp/utils/OutputThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/excel/model/ExcelRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/excel/utils/ExcelUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ftp/model/AnalysisResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ftp/model/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ftp/utils/FtpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/log4j/example/Log4jExample.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/aes/CryptUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/mysql/MySQLProperties.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/mysql/MySQLUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/com/aes/CryptUtilsTest.class" afterPath="$PROJECT_DIR$/build/classes/test/com/aes/CryptUtilsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/com/mysql/MySQLUtilTest.class" afterPath="$PROJECT_DIR$/build/classes/test/com/mysql/MySQLUtilTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/UtilClass_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/UtilClass_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/UtilClass_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/UtilClass_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UtilClass.iml" afterPath="$PROJECT_DIR$/UtilClass.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -45,7 +68,6 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -54,128 +76,44 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UtilClass" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UtilClass" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UtilClass" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CryptUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java">
+      <file leaf-file-name="Log4jExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/log4j/example/Log4jExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1729">
-              <caret line="96" column="7" lean-forward="false" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CryptUtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQLUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+            <state relative-caret-position="95">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2507#2522#0" expanded="true" />
-                <marker date="1500549419746" expanded="true" signature="982:1174" ph="CREATE TABLE... IF" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Statement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2154">
-              <caret line="353" column="12" lean-forward="false" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQLProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQLUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mysql/MySQLUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverManager.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/DriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11856">
-              <caret line="663" column="26" lean-forward="false" selection-start-line="663" selection-start-column="26" selection-end-line="663" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#26959#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#4492#4493#0" expanded="false" />
-                <element signature="e#4528#4529#0" expanded="false" />
-                <element signature="e#17838#17839#0" expanded="false" />
-                <element signature="e#17876#17877#0" expanded="false" />
-                <element signature="e#18136#18137#0" expanded="false" />
-                <element signature="e#18173#18174#0" expanded="false" />
-                <element signature="e#19826#19827#0" expanded="false" />
-                <element signature="e#19858#19859#0" expanded="false" />
-                <element signature="e#21404#21405#0" expanded="false" />
-                <element signature="e#21485#21486#0" expanded="false" />
-                <element signature="e#26755#26756#0" expanded="false" />
-                <element signature="e#26795#26796#0" expanded="false" />
-                <element signature="e#26841#26842#0" expanded="false" />
-                <element signature="e#26901#26902#0" expanded="false" />
-                <element signature="e#26930#26931#0" expanded="false" />
-                <element signature="e#26955#26956#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Connection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#72195#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3bfa508e-80ab-4444-8603-56ccb4e27af3/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -183,9 +121,21 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="215">
+              <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/utils/OutputThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="623">
+              <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,8 +145,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,6 +159,17 @@
     <replaceStrings>
       <replace>CMP</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="liuyanglg &lt;liuyanglg@outlook.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -383,7 +344,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2999841226931" />
+        <entry key="$PROJECT_DIR$" value="3001152401416" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="1818917378" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -551,13 +513,25 @@
         <option value="$PROJECT_DIR$/src/ex/ServiceException.java" />
         <option value="$PROJECT_DIR$/src/utils/CryptUtils.java" />
         <option value="$PROJECT_DIR$/src/CryptUtils.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mysql/MySQLUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysql/MySQLProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysql/MySQLUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mysql/MySQLUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/excel/model/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ftp/FtpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dmp/model/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dmp/util/DmpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/excel/util/ExcelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dmp/model/TableSize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ftp/utils/FtpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ftp/model/AnalysisResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/log4j/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dmp/utils/OutputThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/log4j/example/Log4jExample.java" />
       </list>
     </option>
   </component>
@@ -576,15 +550,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="464" />
-    <option name="width" value="909" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -600,113 +579,60 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UtilClass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UtilClass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UtilClass" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="D:/Checkout/trunk-001" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34363297" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
@@ -718,6 +644,7 @@
       <recent name="com.aes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\GitProject\UtilClass\resources\properties" />
       <recent name="D:\Project\intelij-idea\java\UtilClass\src\main\java" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -727,6 +654,9 @@
       <recent name="com.hbm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\GitProject\UtilClass\resources" />
+      <recent name="D:\Project\GitProject\UtilClass\src\main\java\com\dmp" />
+      <recent name="D:\Project\GitProject\UtilClass\src\main\java\com\excel" />
       <recent name="D:\Project\intelij-idea\java\UtilClass" />
       <recent name="D:\Project\intelij-idea\java\UtilClass\src" />
     </key>
@@ -743,37 +673,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySQLUtilTest.createTable">
-    <configuration default="false" name="CryptUtilsTest.encryptFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Log4jExample">
+    <configuration name="CryptUtilsTest.decryptFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.aes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="UtilClass_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.aes" />
-      <option name="MAIN_CLASS_NAME" value="com.aes.CryptUtilsTest" />
-      <option name="METHOD_NAME" value="encryptFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CryptUtilsTest.decryptFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.aes.*" />
+          <option name="PATTERN" value="com.aes.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -794,9 +698,52 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="MySQLUtilTest.createTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CryptUtilsTest.encryptFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.aes.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UtilClass_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.aes" />
+      <option name="MAIN_CLASS_NAME" value="com.aes.CryptUtilsTest" />
+      <option name="METHOD_NAME" value="encryptFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Log4jExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.log4j.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.log4j.example.Log4jExample" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UtilClass_main" />
+      <envs />
+    </configuration>
+    <configuration name="MySQLUtilTest.createTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.mysql.*" />
@@ -820,14 +767,140 @@
       </option>
       <envs />
       <patterns />
-      <method />
+    </configuration>
+    <configuration name="MySQLUtilTest.queryBySql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mysql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="UtilClass_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mysql" />
+      <option name="MAIN_CLASS_NAME" value="com.mysql.MySQLUtilTest" />
+      <option name="METHOD_NAME" value="queryBySql" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UtilClass" />
+      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -882,29 +955,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
@@ -994,36 +1044,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -1061,19 +1081,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="UtilClass" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1086,54 +1093,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
       <envs />
       <method />
     </configuration>
@@ -1150,16 +1112,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CryptUtilsTest.encryptFile" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.CryptUtilsTest.decryptFile" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MySQLUtilTest.createTable" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MySQLUtilTest.queryBySql" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Log4jExample" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MySQLUtilTest.createTable" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Log4jExample" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.CryptUtilsTest.decryptFile" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CryptUtilsTest.encryptFile" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MySQLUtilTest.queryBySql" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MySQLUtilTest.createTable" />
       </list>
     </recent_temporary>
   </component>
@@ -1192,117 +1158,140 @@
       <workItem from="1500536089445" duration="48000" />
       <workItem from="1500537864492" duration="2529000" />
       <workItem from="1500543167903" duration="4059000" />
+      <workItem from="1500597989325" duration="10441000" />
+      <workItem from="1500622050073" duration="754000" />
+      <workItem from="1500883235718" duration="789000" />
+      <workItem from="1501204860499" duration="21000" />
+      <workItem from="1501227666480" duration="7359000" />
     </task>
+    <task id="LOCAL-00001" summary="加入MySQL数据插叙工具类">
+      <created>1500622167544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500622167544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CryptUtilsTest_encryptFile - 2017.07.14 at 10h 31m 42s.xml">
+    <history-entry file="CryptUtilsTest_decryptFile - 2017.07.28 at 09h 21m 19s.xml">
+      <configuration name="CryptUtilsTest.decryptFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CryptUtilsTest_encryptFile - 2017.07.24 at 16h 03m 48s.xml">
       <configuration name="CryptUtilsTest.encryptFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CryptUtilsTest_encryptFile - 2017.07.14 at 18h 42m 40s.xml">
-      <configuration name="CryptUtilsTest.encryptFile" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 09h 24m 00s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CryptUtilsTest_encryptFile - 2017.07.17 at 15h 45m 58s.xml">
-      <configuration name="CryptUtilsTest.encryptFile" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 09h 25m 37s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 35m 02s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 09h 27m 47s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 42m 44s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 09h 28m 18s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 52m 56s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 13h 14m 41s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 53m 08s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 13h 15m 23s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 53m 22s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 13h 18m 04s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 54m 52s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySQLUtilTest_createTable - 2017.07.20 at 17h 55m 15s.xml">
-      <configuration name="MySQLUtilTest.createTable" configurationId="JUnit" />
+    <history-entry file="MySQLUtilTest_queryBySql - 2017.07.21 at 13h 22m 44s.xml">
+      <configuration name="MySQLUtilTest.queryBySql" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29025000" />
+    <option name="totallyTimeSpent" value="48389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="464" y="0" width="909" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960753" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40963855" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40103272" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4302926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29209623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44427" sideWeight="0.3006993" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44427" sideWeight="0.6993007" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.6993007" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33908948" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入MySQL数据插叙工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入MySQL数据插叙工具类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java</url>
           <line>61</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java</url>
           <line>58</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLUtil.java</url>
-          <line>20</line>
+          <line>97</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLUtil.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1311,111 +1300,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37069">
-          <caret line="2002" column="28" lean-forward="true" selection-start-line="2002" selection-start-column="28" selection-end-line="2002" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#95358#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8262#8263#0" expanded="false" />
-            <element signature="e#8297#8298#0" expanded="false" />
-            <element signature="e#21135#21136#0" expanded="false" />
-            <element signature="e#21162#21163#0" expanded="false" />
-            <element signature="e#21752#21753#0" expanded="false" />
-            <element signature="e#21794#21795#0" expanded="false" />
-            <element signature="e#23018#23019#0" expanded="false" />
-            <element signature="e#23057#23058#0" expanded="false" />
-            <element signature="e#64751#64752#0" expanded="false" />
-            <element signature="e#64801#64802#0" expanded="false" />
-            <element signature="e#68391#68392#0" expanded="false" />
-            <element signature="e#68441#68442#0" expanded="false" />
-            <element signature="e#72099#72100#0" expanded="false" />
-            <element signature="e#72153#72154#0" expanded="false" />
-            <element signature="e#75713#75714#0" expanded="false" />
-            <element signature="e#75750#75751#0" expanded="false" />
-            <element signature="e#80745#80746#0" expanded="false" />
-            <element signature="e#80782#80783#0" expanded="false" />
-            <element signature="e#89537#89538#0" expanded="false" />
-            <element signature="e#89586#89587#0" expanded="false" />
-            <element signature="e#91257#91258#0" expanded="false" />
-            <element signature="e#91297#91298#0" expanded="false" />
-            <element signature="e#91558#91559#0" expanded="false" />
-            <element signature="e#91590#91591#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ex/UtilsException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/UnknownException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/SqlInjectionException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/DAOException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/BaseException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/FrameException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/ActionException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ex/JSONException.java" />
     <entry file="file://$PROJECT_DIR$/src/ex/ServiceException.java" />
     <entry file="file://$PROJECT_DIR$/src/utils/CryptUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/utils/JarUtils.java" />
@@ -1443,42 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37069">
           <caret line="2002" column="28" lean-forward="false" selection-start-line="2002" selection-start-column="28" selection-end-line="2002" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#95358#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#8262#8263#0" expanded="false" />
-            <element signature="e#8297#8298#0" expanded="false" />
-            <element signature="e#21135#21136#0" expanded="false" />
-            <element signature="e#21162#21163#0" expanded="false" />
-            <element signature="e#21752#21753#0" expanded="false" />
-            <element signature="e#21794#21795#0" expanded="false" />
-            <element signature="e#23018#23019#0" expanded="false" />
-            <element signature="e#23057#23058#0" expanded="false" />
-            <element signature="e#64751#64752#0" expanded="false" />
-            <element signature="e#64801#64802#0" expanded="false" />
-            <element signature="e#68391#68392#0" expanded="false" />
-            <element signature="e#68441#68442#0" expanded="false" />
-            <element signature="e#72099#72100#0" expanded="false" />
-            <element signature="e#72153#72154#0" expanded="false" />
-            <element signature="e#75713#75714#0" expanded="false" />
-            <element signature="e#75750#75751#0" expanded="false" />
-            <element signature="e#80745#80746#0" expanded="false" />
-            <element signature="e#80782#80783#0" expanded="false" />
-            <element signature="e#89537#89538#0" expanded="false" />
-            <element signature="e#89586#89587#0" expanded="false" />
-            <element signature="e#91257#91258#0" expanded="false" />
-            <element signature="e#91297#91298#0" expanded="false" />
-            <element signature="e#91558#91559#0" expanded="false" />
-            <element signature="e#91590#91591#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,22 +1334,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6270">
+          <caret line="353" column="12" lean-forward="false" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/ResultSetMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11818">
+          <caret line="663" column="26" lean-forward="false" selection-start-line="663" selection-start-column="26" selection-end-line="663" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Types.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="-4491">
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Project/new/ROOT.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2033">
+          <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mysql/MySQLUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aes/CryptUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/model/Record.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="96" column="7" lean-forward="false" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/utils/DmpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1510,84 +1415,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/aes/CryptUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="83" column="17" lean-forward="false" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#72195#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11856">
-          <caret line="663" column="26" lean-forward="false" selection-start-line="663" selection-start-column="26" selection-end-line="663" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26959#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4492#4493#0" expanded="false" />
-            <element signature="e#4528#4529#0" expanded="false" />
-            <element signature="e#17838#17839#0" expanded="false" />
-            <element signature="e#17876#17877#0" expanded="false" />
-            <element signature="e#18136#18137#0" expanded="false" />
-            <element signature="e#18173#18174#0" expanded="false" />
-            <element signature="e#19826#19827#0" expanded="false" />
-            <element signature="e#19858#19859#0" expanded="false" />
-            <element signature="e#21404#21405#0" expanded="false" />
-            <element signature="e#21485#21486#0" expanded="false" />
-            <element signature="e#26755#26756#0" expanded="false" />
-            <element signature="e#26795#26796#0" expanded="false" />
-            <element signature="e#26841#26842#0" expanded="false" />
-            <element signature="e#26901#26902#0" expanded="false" />
-            <element signature="e#26930#26931#0" expanded="false" />
-            <element signature="e#26955#26956#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mysql/MySQLUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aes/utils/CryptUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/utils/ImpCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/excel/utils/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ftp/utils/FtpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ftp/model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ftp/model/AnalysisResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="171">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Prog/Development-kit/Jdk/JDK 1.8/src.zip!/java/sql/Statement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/model/TableSize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2154">
-          <caret line="353" column="12" lean-forward="false" selection-start-line="353" selection-start-column="12" selection-end-line="353" selection-end-column="12" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mysql/MySQLUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="76" column="70" lean-forward="false" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+        <state relative-caret-position="285">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <marker date="1500603561970" expanded="true" signature="882:1074" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dmp/utils/OutputThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2507#2522#0" expanded="true" />
-            <marker date="1500549419746" expanded="true" signature="982:1174" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/properties/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/log4j/example/Log4jExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
