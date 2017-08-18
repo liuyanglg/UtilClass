@@ -7,7 +7,13 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by liuya on 2017/7/20.
+ * @Package : com.mysql
+ * @Class : MySQLUtil
+ * @Description : 
+ * @Author : liuya
+ * @CreateDate : 2017-08-07 星期一 17:45:23
+ * @Version : V1.0.0
+ * @Copyright : 2017 liuya Inc. All rights reserved.
  */
 public class MySQLUtil {
 
@@ -28,10 +34,33 @@ public class MySQLUtil {
     }
 
     public static void createTable(Connection connection) {
-        String sql = "CREATE TABLE IF NOT EXISTS tb_base_code_serviceid(\n" +
+        String sql = "CREATE TABLE IF NOT EXISTS tb_base_code_serviceid_xxx(\n" +
                 "\tcode VARCHAR(16) PRIMARY KEY NOT NULL,\n" +
                 "\tserviceid VARCHAR(35) NOT NULL\n" +
                 ")";
+        Statement stat = null;
+        if (connection != null) {
+            try {
+                stat = connection.createStatement();
+                stat.execute(sql);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            } finally {
+                try {
+                    if (connection != null) {
+                        connection.close();
+                    }
+                    if (stat != null) {
+                        stat.close();
+                    }
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public static void execSql(Connection connection,String sql){
         Statement stat = null;
         if (connection != null) {
             try {
@@ -96,6 +125,34 @@ public class MySQLUtil {
             }
         }
         return list;
+    }
+
+    public static void insertBatch(String sql,Connection connection,List<Map<String,Object>> params){
+        PreparedStatement ps = null;
+        try {
+            ps = connection.prepareStatement(sql);
+            for(Map<String,Object>param:params){
+                String serviceid= (String) param.get("c_serviceid");
+                String code= (String) param.get("c_taxnum");
+                ps.setString(1,serviceid);
+                ps.setString(2,code);
+                ps.addBatch();
+            }
+            Long timeStart = System.currentTimeMillis();
+            ps.executeBatch();//批量更新
+            Long timeEnd = System.currentTimeMillis();
+            System.out.println((timeEnd-timeStart)+"ms");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            if (ps != null) {
+                try {
+                    ps.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     /**

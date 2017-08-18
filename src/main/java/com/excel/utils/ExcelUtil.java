@@ -25,7 +25,7 @@ public class ExcelUtil {
         String excelTitle[] = new String[]{companyName, identifyNumber, exceptionNumber};
         //建立工作簿
         Workbook wb = new XSSFWorkbook();
-        FileOutputStream out=null;
+        FileOutputStream out = null;
 
         try {
             //创建工作表
@@ -35,7 +35,7 @@ public class ExcelUtil {
             for (int i = 0; i < excelTitle.length; i++) {
                 Cell cell = row.createCell(i);
                 cell.setCellValue(excelTitle[i]);
-                sheet.setColumnWidth(i,excelTitle[i].getBytes().length*256);
+                sheet.setColumnWidth(i, excelTitle[i].getBytes().length * 256);
             }
 
             Iterator<Object> iterator = objectSet.iterator();
@@ -51,20 +51,20 @@ public class ExcelUtil {
             }
 
             //解析文件路径，并创建文件夹
-            String filePath = filename.substring(0, filename.lastIndexOf("\\")+1);
+            String filePath = filename.substring(0, filename.lastIndexOf("\\") + 1);
             File fp = new File(filePath);
-            if(!fp.exists()){
+            if (!fp.exists()) {
                 fp.mkdirs();
             }
-            if(!filename.endsWith(".xls")&&!filename.endsWith(".xlsx")){
+            if (!filename.endsWith(".xls") && !filename.endsWith(".xlsx")) {
                 filename += ".xlsx";
             }
             out = new FileOutputStream(filename);
             wb.write(out);
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
-            if(out!=null) {
+        } finally {
+            if (out != null) {
                 try {
                     out.close();
                 } catch (IOException e) {
