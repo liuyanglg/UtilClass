@@ -11,7 +11,7 @@ import java.io.File;
 public class CryptUtilsTest {
     @Test
     public void encryptFile() throws Exception {
-        String fp = "E:\\Config\\work\\jdbc3\\jdbc.properties";
+        String fp = "D:\\Document\\Jdbc\\jdbc.local.properties";
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Input file path: ");
 //        String inputPath=sc.next();
@@ -29,7 +29,7 @@ public class CryptUtilsTest {
 
     @Test
     public void decryptFile() throws Exception {
-        String fp = "E:\\Config\\work\\jdbc3\\jdbc.properties";
+        String fp = "D:\\Document\\Jdbc\\jdbc.properties";
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println("Input file path: ");
 //        String inputPath=sc.next();
