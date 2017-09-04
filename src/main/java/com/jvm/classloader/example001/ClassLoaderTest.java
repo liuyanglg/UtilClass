@@ -1,5 +1,7 @@
 package com.jvm.classloader.example001;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -13,8 +15,14 @@ public class ClassLoaderTest {
         System.out.println(loader);
 
         System.out.println("-------------------------------------------------");
-//        String classesPath = ClassLoaderTest.class.getResource("/").getPath();
-        String classesPath = "D:/Download/";
+        File rootDirectory = new File("");
+        String classesPath = null;
+        try {
+            classesPath = rootDirectory.getCanonicalPath() + "/resources/classes/ClassSimple.class";
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+//        String classesPath = "D:/Download/";
         String className = "com.jvm.classloader.example001.ClassSimple";
         MyClassLoader myClassLoader = new MyClassLoader(classesPath);
         try {
