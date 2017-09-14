@@ -1,4 +1,4 @@
-package com.jvm.methodInvoke;
+package com.jvm.dispatch;
 
 public class DynamicDispatch {
     static abstract class Human {

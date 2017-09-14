@@ -1,4 +1,4 @@
-package com.jvm.localVariableTable.example001;
+package com.jvm.gc.example001;
 
 public class SlotTest1 {
     public static void main(String[] args) {
