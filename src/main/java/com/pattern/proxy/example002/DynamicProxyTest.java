@@ -1,4 +1,4 @@
-package com.designPattern.proxy.example002;
+package com.pattern.proxy.example002;
 
 import sun.misc.ProxyGenerator;
 
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.lang.reflect.Proxy;
 
 /**
- * @package : com.designPattern.proxy.example002
+ * @package : com.pattern.proxy.example002
  * @class : DynamicProxyTest
  * @description : 动态代理测试类
  * @author : liuyang

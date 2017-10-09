@@ -1,4 +1,4 @@
-package com.designPattern.proxy.example001;
+package com.pattern.proxy.example001;
 
 public class ProxySubject implements Subject{
     private Subject subject;

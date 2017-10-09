@@ -1,4 +1,4 @@
-package com.designPattern.observers;
+package com.pattern.observers;
 
 public interface Subscriber {
     void ReceiveNews(String news);

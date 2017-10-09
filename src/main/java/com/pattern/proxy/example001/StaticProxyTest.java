@@ -1,7 +1,7 @@
-package com.designPattern.proxy.example001;
+package com.pattern.proxy.example001;
 
 /**
- * @package : com.designPattern.proxy.example001
+ * @package : com.pattern.proxy.example001
  * @class : DynamicProxyTest
  * @description : 静态代理测试类
  * @author : liuya

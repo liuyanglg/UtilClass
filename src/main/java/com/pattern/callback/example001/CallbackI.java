@@ -1,4 +1,4 @@
-package com.designPattern.callback.example001;
+package com.pattern.callback.example001;
 
 public interface CallbackI {
      void doSomething();

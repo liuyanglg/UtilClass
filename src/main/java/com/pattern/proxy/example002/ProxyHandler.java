@@ -1,4 +1,4 @@
-package com.designPattern.proxy.example002;
+package com.pattern.proxy.example002;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.designPattern.observers;
+package com.pattern.observers;
 
 public class ObserversTest {
     public static void main(String[] args) {
