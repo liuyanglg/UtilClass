@@ -1,5 +1,14 @@
 package com.pattern.builder.example002;
 
+/**
+ * @package : com.pattern.builder.example002
+ * @class : StudentBuilder
+ * @description : 另类的生产者模式
+ * @author : lyf
+ * @date : 2017-10-10 星期二 16:06:50
+ * @version : V1.0.0
+ * @copyright : 2017 lyf Inc. All rights reserved.
+ */
 public class StudentBuilder {
     private Student student = null;
     public StudentBuilder(String id,String name){
