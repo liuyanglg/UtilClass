@@ -5,6 +5,9 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.File;
@@ -24,16 +27,16 @@ public class ExcelUtil {
         String exceptionNumber = "异常商品数量";
         String excelTitle[] = new String[]{companyName, identifyNumber, exceptionNumber};
         //建立工作簿
-        Workbook wb = new XSSFWorkbook();
+        XSSFWorkbook wb = new XSSFWorkbook();
         FileOutputStream out = null;
 
         try {
             //创建工作表
-            Sheet sheet = wb.createSheet("Sheet0");
+            XSSFSheet sheet = wb.createSheet("Sheet0");
             int rowIndex = 0;
-            Row row = sheet.createRow(rowIndex++);
+            XSSFRow row = sheet.createRow(rowIndex++);
             for (int i = 0; i < excelTitle.length; i++) {
-                Cell cell = row.createCell(i);
+                XSSFCell cell = row.createCell(i);
                 cell.setCellValue(excelTitle[i]);
                 sheet.setColumnWidth(i, excelTitle[i].getBytes().length * 256);
             }
@@ -41,8 +44,8 @@ public class ExcelUtil {
             Iterator<Object> iterator = objectSet.iterator();
             while (iterator.hasNext()) {
                 ExcelRecord record = (ExcelRecord) iterator.next();
-                Row xssfRow = sheet.createRow(rowIndex++);
-                Cell xssfCell = xssfRow.createCell(0);
+                XSSFRow xssfRow = sheet.createRow(rowIndex++);
+                XSSFCell xssfCell = xssfRow.createCell(0);
                 xssfCell.setCellValue(record.getCompanyName());
                 xssfCell = xssfRow.createCell(1);
                 xssfCell.setCellValue(record.getIdentifyNumber());
