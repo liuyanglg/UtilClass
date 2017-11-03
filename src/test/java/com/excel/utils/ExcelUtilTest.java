@@ -3,12 +3,25 @@ package com.excel.utils;
 import com.excel.model.ExcelRecord;
 import org.junit.Test;
 
+import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Set;
 
 import static org.junit.Assert.*;
 
 public class ExcelUtilTest {
+    @Test
+    public void importSimpleExcel() throws Exception {
+        String path = "D:\\Download\\corret_data.xlsx";
+        InputStream is = ExcelUtil.readFile(path);
+        System.out.println(ExcelUtil.importSimpleExcel(is));
+    }
+
+    @Test
+    public void removeSpecSymbol() throws Exception {
+        System.out.println(ExcelUtil.removeSpecSymbol("123@"));
+    }
+
     @Test
     public void exportExcel() throws Exception {
         Set<Object> records = new HashSet<Object>();
