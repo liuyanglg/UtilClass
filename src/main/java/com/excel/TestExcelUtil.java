@@ -1,7 +1,7 @@
 package com.excel;
 
 import com.excel.model.ExcelRecord;
-import com.excel.utils.ExcelUtil;
+import com.excel.utils.ExcelUtil2;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -20,6 +20,6 @@ public class TestExcelUtil {
             records.add(record);
         }
 
-        ExcelUtil.exportExcel(records,"D:\\logs\\record.xml");
+        ExcelUtil2.exportExcel(records,"D:\\logs\\record.xml");
     }
 }

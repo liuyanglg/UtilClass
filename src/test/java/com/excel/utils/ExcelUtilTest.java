@@ -7,19 +7,17 @@ import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.*;
-
 public class ExcelUtilTest {
     @Test
     public void importSimpleExcel() throws Exception {
         String path = "D:\\Download\\corret_data.xlsx";
-        InputStream is = ExcelUtil.readFile(path);
-        System.out.println(ExcelUtil.importSimpleExcel(is));
+        InputStream is = ExcelUtil2.readFile(path);
+        System.out.println(ExcelUtil2.importSimpleExcel(is));
     }
 
     @Test
     public void removeSpecSymbol() throws Exception {
-        System.out.println(ExcelUtil.removeSpecSymbol("123@"));
+        System.out.println(ExcelUtil2.removeSpecSymbol("123@"));
     }
 
     @Test
@@ -36,7 +34,7 @@ public class ExcelUtilTest {
             records.add(record);
         }
 
-        ExcelUtil.exportExcel(records,"D:\\logs\\record.xml");
+        ExcelUtil2.exportExcel(records,"D:\\logs\\record.xml");
     }
 
 }
