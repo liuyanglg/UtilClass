@@ -8,16 +8,16 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 public class Log4jExample {
-    public static final String PROPERTY_FILE = "/properties/log4j3.properties";
+    public static final String PATH = "/resources/properties/log4j3.properties";
     public static Logger log = Logger.getLogger(Log4jExample.class.getName());
 
     public static void initLog4j() {
-        String path = getProjectRootPath() + PROPERTY_FILE;
+        String path = getProjectRootPath() + PATH;
         InputStream is = null;
         Properties pro = new Properties();
         try {
             is = new FileInputStream(path);
-//            is = this.getClass().getResourceAsStream(getProjectRootPath()+PROPERTY_FILE);
+//            is = Log4jExample.class.getResourceAsStream(getProjectRootPath() + PATH);
             pro.load(is);
             Enumeration keys = pro.keys();
             while (keys.hasMoreElements()) {
@@ -57,7 +57,7 @@ public class Log4jExample {
         File file = new File("");
         String projectPath = "";
         try {
-            projectPath=file.getCanonicalPath();
+            projectPath = file.getCanonicalPath();
         } catch (IOException e) {
             e.printStackTrace();
         }
